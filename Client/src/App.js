@@ -1,9 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
-
+import { Viewer, Entity } from "resium";
 function App() {
   return (
-    <></>
+    <Viewer full />
   );
 }
 
